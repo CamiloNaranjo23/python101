@@ -9,8 +9,6 @@ To test the sum, please run:
 
    python suma.py
 
-To test file handling with planets, please dodownload the following CSV file and run planets.py
-
-   http://exoplanet.eu/catalog/csv/
+To test file handling with planets, with information taken from  http://exoplanet.eu/catalog/csv/
 
    python planets.py
