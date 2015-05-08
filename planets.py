@@ -5,7 +5,7 @@ def contar_lineas(archivo):
 
 
 def prueba():
-    cuenta_esperada = 1920
+    cuenta_esperada = 1919
     cuenta = contar_lineas('planets.csv')
     msg = "Esperaba %s lineas y obtuve %s" % (cuenta_esperada, cuenta)
     assert cuenta == cuenta_esperada, msg
