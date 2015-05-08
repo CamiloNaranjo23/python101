@@ -1,6 +1,13 @@
 def contar_lineas(archivo):
-    return sum(1 for line in open(archivo))-1
+    Archivo = open("planets.csv","r")
+    suma = 0
     
+    for i in Archivo.xreadlines():
+        SUMA = SUMA + len(i)
+    print SUMA
+    Archivo.close()
+
+
 def prueba():
     cuenta_esperada = 1919
     cuenta = contar_lineas('planets.csv')
