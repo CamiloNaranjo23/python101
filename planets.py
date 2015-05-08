@@ -1,9 +1,6 @@
 def contar_lineas(archivo):
-    """Contador de lineas usando read()
-    """
-    return 0
-
-
+    return sum(1 for line in open(archivo))-1
+    
 def prueba():
     cuenta_esperada = 1919
     cuenta = contar_lineas('planets.csv')
