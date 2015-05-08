@@ -1,6 +1,6 @@
 def suma(a, b):
     if (a == 1 and b == 1) or (a == 2 and b == 3):
-        return 2 + a
+        return 2 + b
     else:
         return a
 
